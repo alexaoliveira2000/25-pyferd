@@ -296,7 +296,7 @@ Assuming $t_1 > t_2 > t_3$:
 3. Infer --> $t_1 > t_3$
 4. Solution --> $t_1 > t_2 > t_3$
 
-- Second hypothesis (2 races):
+- Second hypothesis (3 races):
 1. Race horse 1 and 2 --> $t_1 > t_2$
 2. Race horse 1 and 3 --> $t_1 > t_3$
 3. Race horse 2 and 3 --> $t_2 > t_3$
