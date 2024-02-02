@@ -7,6 +7,7 @@ There are 25 horses among which you need to find out the fastest 3 horses. You c
 # Mathematical Solution
 1. Assume the fastest horses are, from 3rd to 1st: $h_{3}$, $h_{16}$ and $h_{19}$ (this is what we want to find out, but don't have access to);
 2. We group the horses into groups of 5 and race each group. This gives us 5 races:
+
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -18,8 +19,9 @@ $$
   h_{24} & h_{23} & h_{21} & h_{25} & h_{22} \\
 \end{pmatrix}
 \end{equation}
+
 $$
-3. We race the winner of each group ($h_3$, $h_{10}$, $h_{11}$, $h_{19}$ and $h_{22}$):
+4. We race the winner of each group ($h_3$, $h_{10}$, $h_{11}$, $h_{19}$ and $h_{22}$):
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -28,7 +30,8 @@ $$
 \end{pmatrix}
 \end{equation}
 $$
-4. We then order each initial group according to this 6th race. We are now sure about the fastest horse ($h_{19}$), but not sure about the 2nd and 3rd:
+5. We then order each initial group according to this 6th race. We are now sure about the fastest horse ($h_{19}$), but not sure about the 2nd and 3rd:
+
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -41,7 +44,8 @@ $$
 \end{pmatrix}
 \end{equation}
 $$
-5. From all 25 horses, the ones who can be overall 2nd or 3rd are:
+
+6. From all 25 horses, the ones who can be overall 2nd or 3rd are:
 - the 2nd or 3rd from the first group (the group that has the fastest horse overall);
 - the 1st or 2nd from the 2nd group (the group that has the horse placed 2nd in the 6th race);
 - the 1st from the 3rd group (the group that has the horse placed 3rd in the 6th race).
