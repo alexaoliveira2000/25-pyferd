@@ -77,6 +77,7 @@ $$
 $$
 
 7. Overall top ranking:
+
 $$
 \begin{equation}
 \begin{pmatrix}
