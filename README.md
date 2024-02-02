@@ -274,7 +274,7 @@ def heuristic(self):
       return horses_to_evaluate*50 + info_missing
 ```
 
-You may have noticed that we give 50 times more importance to evaluating every horse than the information we're missing, which is the same logic on the mathematical analysis. If this importance is ignored, the algorithm typically uses one horse from the previous race, in order to create some kind of "connection" between the horses. We know that that "connection" is made on the 6th race on the original solution, which cannot be seen ahead of time by the algorithm (hence focusing initially on racing every possible horse).
+You may have noticed that I give 50 times more importance to evaluating every horse than the information we're missing, which is the same logic on the mathematical analysis. If this importance is ignored, the algorithm typically uses one horse from the previous race, in order to create some kind of "connection" between the horses. We know that that "connection" is made on the 6th race on the original solution, which cannot be seen ahead of time by the algorithm (hence focusing initially on racing every possible horse).
 
 # Parameters
 On a final note, you can control 3 parameters on the provided code regarding the specific problem you want to solve:
@@ -302,7 +302,7 @@ Assuming $t_1 > t_2 > t_3$:
 3. Race horse 2 and 3 --> $t_2 > t_3$
 4. Solution --> $t_1 > t_2 > t_3$
 
-For the orginial problem however, the solution is always 7 races.
+For the orginal problem however, the solution is always 7 races.
 
 # Output
 ```py
