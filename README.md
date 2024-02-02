@@ -19,9 +19,10 @@ $$
   h_{24} & h_{23} & h_{21} & h_{25} & h_{22} \\
 \end{pmatrix}
 \end{equation}
-
 $$
+
 4. We race the winner of each group ($h_3$, $h_{10}$, $h_{11}$, $h_{19}$ and $h_{22}$):
+
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -30,6 +31,7 @@ $$
 \end{pmatrix}
 \end{equation}
 $$
+
 5. We then order each initial group according to this 6th race. We are now sure about the fastest horse ($h_{19}$), but not sure about the 2nd and 3rd:
 
 $$
@@ -62,6 +64,7 @@ $$
 \end{pmatrix}
 \end{equation}
 $$
+
 6. According to this, we perform a 7th race with horses $h_{18}$, $h_{16}$, $h_{8}$, $h_{10}$ and $h_{3}$, being sure about the top 3:
 
 $$
