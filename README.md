@@ -21,7 +21,7 @@ $$
 \end{equation}
 $$
 
-4. We race the winner of each group ($h_3$, $h_{10}$, $h_{11}$, $h_{19}$ and $h_{22}$):
+3. We race the winner of each group ($h_3$, $h_{10}$, $h_{11}$, $h_{19}$ and $h_{22}$):
 
 $$
 \begin{equation}
@@ -32,7 +32,7 @@ $$
 \end{equation}
 $$
 
-5. We then order each initial group according to this 6th race. We are now sure about the fastest horse ($h_{19}$), but not sure about the 2nd and 3rd:
+4. We then order each initial group according to this 6th race. We are now sure about the fastest horse ($h_{19}$), but not sure about the 2nd and 3rd:
 
 $$
 \begin{equation}
@@ -47,7 +47,7 @@ $$
 \end{equation}
 $$
 
-6. From all 25 horses, the ones who can be overall 2nd or 3rd are:
+5. From all 25 horses, the ones who can be overall 2nd or 3rd are:
 - the 2nd or 3rd from the first group (the group that has the fastest horse overall);
 - the 1st or 2nd from the 2nd group (the group that has the horse placed 2nd in the 6th race);
 - the 1st from the 3rd group (the group that has the horse placed 3rd in the 6th race).
@@ -75,6 +75,7 @@ $$
 \end{pmatrix}
 \end{equation}
 $$
+
 7. Overall top ranking:
 $$
 \begin{equation}
